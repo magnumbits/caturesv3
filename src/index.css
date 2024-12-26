@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&family=Dancing+Script:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-yellow: #FFE135;
+  --primary-purple: #9747FF;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color: var(--primary-yellow);
+  min-height: 100vh;
+}
+
+.gradient-button-pink-purple {
+  background: linear-gradient(90deg, #FF69B4 0%, #9747FF 100%);
+}
+
+.gradient-button-blue-green {
+  background: linear-gradient(90deg, #4B9FE1 0%, #32CD32 100%);
+}
